@@ -5,3 +5,13 @@ body{
   width: 1008px;
   margin: 65px auto 0;
 }
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul{
+  list-style: none;
+  display: flex;
+  gap: 48px;
+}
