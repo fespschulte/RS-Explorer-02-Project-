@@ -1,20 +1,93 @@
-body{
+body {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgb(192 238 227 / 70%) 50%,rgba(227, 255, 248, 0.38) 100%)
+  
 }
-.page{
+.page {
   width: 1008px;
-  margin: 65px auto 0;
+padding-top: 65px;
+  margin: 0 auto 0;
 }
-header{
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 55px;
 }
-ul{
+ul {
   list-style: none;
   display: flex;
   gap: 48px;
   margin: 0;
   padding: 0;
+}
+a{
+  color: #1F1534;
+  text-decoration: none;
+}
+ul li a {
+  opacity: 0.5;
+}
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+h1,ul {
+  font-family: 'Mulish', sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+
+}
+h1 span {
+  color: #89c5cc;
+  font-weight: bold;
+}
+section p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+  margin: 40px 0;
+}
+button {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  border: none;
+  padding: 14px 32px 15px;
+  display: flex;
+  justify-content: center;
+  gap:10px;
+  align-items: center;
+  background-color: #69b99d;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #338f6f;
+  transition: 0.5s;
+}
+button:not(:hover) {
+  transition: 0.5s;
+}
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 80px;
+}
+footer a {
+  font-weight: bold;
 }
